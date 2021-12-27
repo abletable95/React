@@ -1,0 +1,22 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputWrapper input {
+    margin-bottom: 5px;
+    border: solid rgb(54, 58, 71) 1px;
+    background: rgb(217, 249, 253);
+    border-radius: 10px;
+    transition: all 200ms;
+}
+
+.inputWrapper input:focus {
+    outline: solid #000 1px;
+    background: rgb(170, 230, 248);
+}
+
+.inputWrapper p {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
